@@ -1674,7 +1674,34 @@
 				height: 1px;
 				background-color: rgba(0, 0, 0, 0.125);
 			}
+    p1 {
+		font-weight: 300;
+		line-height: 1.5;
+		margin: 0 0 1rem 0
+	}
 
+		p1.special {
+			text-transform: uppercase;
+			font-size: 1.75rem;
+			font-weight: 300;
+			margin: 0 0 .5rem 0;
+			padding: 0 0 1rem 0;
+			letter-spacing: .25rem;
+		}
+
+			p1.special:after {
+				content: '';
+				position: absolute;
+				margin: auto;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 50%;
+				height: 1px;
+				background-color: rgba(0, 0, 0, 0.125);
+			}
+   
+   
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.5;
@@ -1705,6 +1732,7 @@
 	h6 {
 		font-size: 0.7rem;
 	}
+    
 
 	sub {
 		font-size: 0.8rem;
@@ -1829,6 +1857,26 @@
 		}
 
 			.box header p:after {
+				content: '';
+				position: absolute;
+				margin: auto;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 50%;
+				height: 1px;
+				background-color: rgba(0, 0, 0, 0.125);
+			}
+        .box header p1 {
+			text-transform: uppercase;
+			font-size: 1.75rem;
+			font-weight: 300;
+			margin: 0 0 .25rem 0;
+			padding: 0 0 .75rem 0;
+			letter-spacing: .25rem;
+		}
+
+			.box header p1:after {
 				content: '';
 				position: absolute;
 				margin: auto;
@@ -2552,6 +2600,11 @@
 		position: relative;
 		margin: 0 0 1.5rem 0;
 	}
+    header p1 {
+		position: relative;
+		margin: 0 0 1.5rem 0;
+	}
+    
 
 	header h2 + p {
 		font-size: 1.25rem;
@@ -2571,6 +2624,9 @@
 	}
 
 	header p {
+		color: #bbb;
+	}
+    header p1 {
 		color: #bbb;
 	}
 
@@ -3066,6 +3122,10 @@
 				color: #999999;
 			}
 
+            .wrapper.style2 header p1 {
+				color: #999999;
+			}
+
 			.wrapper.style2 table tbody tr {
 				border-color: rgba(0, 0, 0, 0.15);
 			}
@@ -3334,6 +3394,26 @@
 			}
 
 				.wrapper.style3 p:after {
+					content: '';
+					position: absolute;
+					margin: auto;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					width: 50%;
+					height: 1px;
+					background-color: rgba(255, 255, 255, 0.5);
+				}
+            .wrapper.style3 p1 {
+				text-transform: uppercase;
+				font-size: .75rem;
+				font-weight: 300;
+				margin: 0 0 .5rem 0;
+				padding: 0 0 1rem 0;
+				letter-spacing: .25rem;
+			}
+
+				.wrapper.style3 p1:after {
 					content: '';
 					position: absolute;
 					margin: auto;
